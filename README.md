@@ -1,6 +1,6 @@
 # HTTP/2 on cloudfornt
 
-On September 2016 Amazon AWS [announce](https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-cloudfront-now-supports-http2/) HTTP/2 support on cloudfront CDN.
+On September 2016 Amazon AWS [announced](https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-cloudfront-now-supports-http2/) HTTP/2 support on cloudfront CDN.
 
 HTTP/2 is a major revision of the HTTP protocol. This new version has several features that make page loading and rendering faster:
 
@@ -20,7 +20,7 @@ To test the effectiveness of HTTP\2 - i created small web page that download mul
 
 I measured the time it take to download and paint those images from HTTP/1.1 cloudfront distribution and then from HTTP/2 cloudfront distribution.
 
-The results are great - especially on mobile - we can see that it reduce the download time significantly, without any changes on our code.
+The results are great - especially on mobile - we can see that it reduced the download time significantly, without any changes on our code.
 
 You can check it yourself by running this [test page](https://dm1fjyvtm5scl.cloudfront.net/http2/index.html) I created, and see the difference between HTTP/1.1 and HTTP/2
 
